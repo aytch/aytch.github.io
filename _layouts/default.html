@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8 />
+  <title> {% if page.title %} {{ page.title }} | {% endif %} Brandon Presley </title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <div id="main">
+    <header>
+      <h1> Brandon Presley </h1>
+    <header>
+    <nav role="navigation">
+      <ul>
+	<li><a href="/">Home</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/resume.html">CV</a></li>
+	</ul>
+    </nav>
+    {{ content }}
+    <footer>
+      <p>&#xa9; Brandon Presley 2013 | Do what thou wilt shall be the whole of the law </p>
+    </footer>
+  </div>
+</body>
+</html>
