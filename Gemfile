@@ -1,2 +1,2 @@
-gem "tactile"
-gem "jekyll-theme-tactile"
+source 'https://rubygems.org'
+gem 'jekyll-theme-tactile'
